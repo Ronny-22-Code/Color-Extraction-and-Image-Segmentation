@@ -2,11 +2,37 @@
 
 This repository introduces to my personal project, which explains and demonstrates the concept of segmentation of feature vectors according to the "Dominant Characteristic Feature" persistent in the image. The demonstration of the project was achieved by the application of "K-Means" Clustering algorithm, which is an unsupervised machine learning algorithm typically used for vector quantization and signal processing with data mining. This algorithm follows an iterative approach to segment or partition the dataset effectively, into K pre-defined clusters or overlapping sub-groups. The output obtained is the dominant color schemes demonstrated through graphical representation persistent in the image given as input.
 
+
+# Aim 
+
+The aim of the project, is to implement Clustering algorithm to extract dominant colors from the image and segment the image according to the dominant extracted colors persistent in the image.
+
+
 # Introduction
 
 In color image processing and its applications the great importance is attached to the techniques used forimage segmentation. The quality of segmentation results have a big impact on the next steps of imageprocessing, for example on the object recognition and tracking, the retrieval in image databases etc. Thegoal of image segmentation is partitioning of the image into homogeneous and connected regions withoutusing an additional knowledge about objects in the image. The homogeneity of regions in color imagesegmentation involves in natural way colors and sometimes color textures. In the segmented image theregions have, in contrast to single pixels, many interesting features like shape, texture etc. The human beingrecognizes objects in the environment using his visual system and by the way he or she segments color images.
 
 If an image after segmentation contains many small regions corresponding to homogeneous objects inthe original image, then we can use a new term: the oversegmentation. On the other hand, if an image aftersegmentation contains few large regions and each region corresponds to several objects in the original image,then this case can be named the undersegmentation.
+
+
+# Goal 
+
+The main goal of the project was to extract the dominant colors from the input image, and segment the image according to dominant colors persistent in the image ; and the extraction is achieved according to the segmentation of feature vectors in feature vector space, which could be either homogeneous or non-homogeneous.
+
+
+# Problem Statement
+
+Random input image given by the user, given as the path of the image stored in the system as the parameter to the concerned function for segmentation.
+
+
+# Objectives
+
+1. Extract the dominant colors in the input image.
+
+2. Segment the image according to the dominant colors.
+
+3. Clustering must be independent of the input image, not concerned with the subject or format of the image.
+
 
 # Clustering Process
 
@@ -20,6 +46,7 @@ The process of partitioning a digital image into multiple segments is defined as
 
 Color image segmentation that is based on the color feature of image pixels assumes that homogeneous colors in the image correspond to separate clusters and hence meaningful objects in the image. In other words, each cluster defines a class of pixels that share similar color properties. As the segmentation results depend on the used color space, there is no single color space that can provide acceptable results for all kinds of images. For this reason, many authors tried to determine the color space that will suit their specific color image segmentation problem . In this work, a segmentation of color images is tested with RGB classical color space.
 
+
 # Screenshots 
 
 ![Screenshot (74)](https://user-images.githubusercontent.com/46643368/74839681-b0acf900-534b-11ea-911c-9b62847bc027.png)
@@ -30,6 +57,7 @@ Color image segmentation that is based on the color feature of image pixels assu
 
 ![Screenshot (79)](https://user-images.githubusercontent.com/46643368/74839757-cfab8b00-534b-11ea-80a8-9c86a5d4e0c6.png)
 
+
 # Output 
 
 ![Screenshot (80)](https://user-images.githubusercontent.com/46643368/74839928-19947100-534c-11ea-80da-774914afb808.png)
@@ -37,6 +65,7 @@ Color image segmentation that is based on the color feature of image pixels assu
 ![Screenshot (81)](https://user-images.githubusercontent.com/46643368/74839938-1dc08e80-534c-11ea-9b50-75997667f953.png)
 
 ![Screenshot (82)](https://user-images.githubusercontent.com/46643368/74839898-0f727280-534c-11ea-81fc-c887cce4650d.png)
+
 
 # Conlcusion 
 
